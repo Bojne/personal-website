@@ -31853,11 +31853,11 @@ function (_React$Component) {
     value: function render() {
       return _react.default.createElement("div", {
         className: "content"
-      }, _react.default.createElement("h1", null, " Yueh Han Huang "), _react.default.createElement("div", null, _react.default.createElement("img", {
-        className: "image",
-        src: _yh2Me.default,
-        alt: "Yueh Han's Hinking Pic"
-      })), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze Data at Netlify ")), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Project"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8 ", _react.default.createElement("a", {
+      }, _react.default.createElement("h1", null, " Yueh Han Huang "), _react.default.createElement("div", {
+        className: "box"
+      }, _react.default.createElement("div", {
+        className: "about"
+      }, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze Data at Netlify ")), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Project"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8 ", _react.default.createElement("a", {
         href: "http://collager.party/"
       }, "Collager.party "))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Links"), _react.default.createElement("p", null, " \uD83D\uDD17", _react.default.createElement("a", {
         href: "https://medium.com/@Johann016/",
@@ -31874,7 +31874,13 @@ function (_React$Component) {
       }, "FB"), "\u30FB", _react.default.createElement("a", {
         href: "https://bojne.github.io",
         target: "_blank"
-      }, "_"))));
+      }, "_")))), _react.default.createElement("div", {
+        classname: "picture"
+      }, _react.default.createElement("img", {
+        className: "image",
+        src: _yh2Me.default,
+        alt: "Yueh Han's Hinking Pic"
+      }))));
     }
   }]);
 
@@ -31910,7 +31916,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53993" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54170" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
