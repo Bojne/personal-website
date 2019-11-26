@@ -3,13 +3,21 @@ body {
 }
 
 .content{
-    margin-left: 6em;
-    margin-right: 6em;
-    margin-top: 4em;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 4rem;
 }
 
 *{
     font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.3rem;
 }
 
 a {
@@ -21,8 +29,9 @@ a {
 a:hover { color: #52bff2; }
 
 .image{
-    height: 22em;
+    height: 22rem;
     transition: all .2s linear;
+    margin-top: 1.5rem;
 
 }
 
@@ -31,14 +40,12 @@ a:hover { color: #52bff2; }
 .box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: flex-start; 
 }
 
 .about{
-    margin-right: 6em;
-}
-.picture{
-    margin-top: 4em;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=/mysite.e31bb0bc.css.map */
