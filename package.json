@@ -10,7 +10,6 @@
     "build": "parcel build index.html --public-url ./"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
