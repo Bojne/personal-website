@@ -31872,25 +31872,28 @@ function (_React$Component) {
       }, "Collager.party ")), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD2C ", _react.default.createElement("a", {
         href: "https://inspiration.tw/",
         target: "_blank"
-      }, "Inspiration.tw"))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Links"), _react.default.createElement("p", null, " \uD83D\uDD17", _react.default.createElement("a", {
+      }, "Inspiration.tw"))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Links"), _react.default.createElement("p", null, " \uD83D\uDCD9", _react.default.createElement("a", {
         href: "https://www.notion.so/yhhuang/My-Favorite-Blogs-and-News-e7fb5feed9df4c3d9be4b85184809f2b",
         target: "_blank"
-      }, " Reading List (Notion)"), "\u30FB", _react.default.createElement("a", {
+      }, " Reading List"), "\u30FB", _react.default.createElement("a", {
         href: "https://medium.com/@Johann016/",
         target: "_blank"
-      }, "Medium(1.6k)"), "\u30FB", _react.default.createElement("a", {
+      }, "Medium"), " (1.6k followers)\u30FB", _react.default.createElement("a", {
+        href: "https://www.are.na/yueh-han-huang",
+        target: "_blank"
+      }, "Are.na")), _react.default.createElement("p", null, " \uD83D\uDD17", _react.default.createElement("a", {
+        href: "https://www.facebook.com/bojne.john",
+        target: "_blank"
+      }, " FB"), "\u30FB", _react.default.createElement("a", {
         href: "http://vsco.co/yuehan18",
         target: "_blank"
       }, "VSCO"), "\u30FB", _react.default.createElement("a", {
         href: "https://github.com/bojne",
         target: "_blank"
       }, "GitHub"), "\u30FB", _react.default.createElement("a", {
-        href: "https://www.facebook.com/bojne.john",
-        target: "_blank"
-      }, "FB"), "\u30FB", _react.default.createElement("a", {
         href: "https://bojne.github.io",
         target: "_blank"
-      }, "_"))))));
+      }, "v1"))))));
     }
   }]);
 
@@ -31926,7 +31929,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54333" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49232" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
