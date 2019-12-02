@@ -18,7 +18,7 @@ class App extends React.Component {
                         <div>
                             <h2>Current</h2>
                             <p> 👨🏻‍🎓 Learning at Minerva Schools at KGI </p>
-                            <p> 👨🏻‍💻 Analyze Data at <a href="https://www.netlify.com/" target="_blank">Netlify</a></p>
+                            <p> 👨🏻‍💻 Analyze Data for better decision making at <a href="https://www.netlify.com/" target="_blank">Netlify</a></p>
                         </div>
                         <div>
                             <h2>Project</h2>
