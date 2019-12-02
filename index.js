@@ -14,6 +14,9 @@ class App extends React.Component {
         <div className = 'content'>
             <h1> Yueh Han Huang </h1>
             <div className="box">
+                <div classname='picture'>
+                    <img className="image" src={pic} alt="Yueh Han's Hinking Pic" />
+                </div>
                 <div className='about'>
                         <div>
                             <h2>Current</h2>
@@ -37,9 +40,6 @@ class App extends React.Component {
                             </p>
                         </div>
                     </div>
-                <div classname='picture'>
-                    <img className="image" src={pic} alt="Yueh Han's Hinking Pic" />
-                </div>
             </div>
             
             

@@ -31730,7 +31730,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -31762,7 +31762,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -31797,12 +31797,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style.css":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"yh2.me.jpg":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"yh2.me.jpg":[function(require,module,exports) {
 module.exports = "/yh2.me.e4b9636f.jpg";
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
@@ -31856,6 +31856,12 @@ function (_React$Component) {
       }, _react.default.createElement("h1", null, " Yueh Han Huang "), _react.default.createElement("div", {
         className: "box"
       }, _react.default.createElement("div", {
+        classname: "picture"
+      }, _react.default.createElement("img", {
+        className: "image",
+        src: _yh2Me.default,
+        alt: "Yueh Han's Hinking Pic"
+      })), _react.default.createElement("div", {
         className: "about"
       }, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze Data for better decision making at ", _react.default.createElement("a", {
         href: "https://www.netlify.com/",
@@ -31884,13 +31890,7 @@ function (_React$Component) {
       }, "FB"), "\u30FB", _react.default.createElement("a", {
         href: "https://bojne.github.io",
         target: "_blank"
-      }, "_")))), _react.default.createElement("div", {
-        classname: "picture"
-      }, _react.default.createElement("img", {
-        className: "image",
-        src: _yh2Me.default,
-        alt: "Yueh Han's Hinking Pic"
-      }))));
+      }, "_"))))));
     }
   }]);
 
@@ -31898,7 +31898,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(App, null), destination);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./style.css":"style.css","./yh2.me.jpg":"yh2.me.jpg"}],"../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./style.css":"style.css","./yh2.me.jpg":"yh2.me.jpg"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -31926,7 +31926,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64471" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54333" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -32102,5 +32102,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/mysite.e31bb0bc.js.map
