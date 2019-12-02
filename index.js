@@ -21,8 +21,9 @@ class App extends React.Component {
                             <p> 👨🏻‍💻 Analyze Data for better decision making at <a href="https://www.netlify.com/" target="_blank">Netlify</a></p>
                         </div>
                         <div>
-                            <h2>Project</h2>
+                            <h2>Projects</h2>
                             <p> 👨🏻‍🎨 <a href="http://collager.party/" target="_blank">Collager.party </a></p>
+                            <p> 👨🏻‍🔬 <a href="https://inspiration.tw/" target="_blank">Inspiration.tw</a></p>
                         </div>
                         <div>
                             <h2>Links</h2>
@@ -33,7 +34,7 @@ class App extends React.Component {
                                 <a href="https://github.com/bojne" target="_blank">GitHub</a>・ 
                                 <a href="https://www.facebook.com/bojne.john"target="_blank">FB</a>・
                                 <a href='https://bojne.github.io' target="_blank">_</a>
-                                </p>
+                            </p>
                         </div>
                     </div>
                 <div classname='picture'>

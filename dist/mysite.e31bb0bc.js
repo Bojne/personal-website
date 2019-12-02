@@ -31857,19 +31857,22 @@ function (_React$Component) {
         className: "box"
       }, _react.default.createElement("div", {
         className: "about"
-      }, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze Data at ", _react.default.createElement("a", {
+      }, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze Data for better decision making at ", _react.default.createElement("a", {
         href: "https://www.netlify.com/",
         target: "_blank"
-      }, "Netlify"))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Project"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8 ", _react.default.createElement("a", {
+      }, "Netlify"))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Projects"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8 ", _react.default.createElement("a", {
         href: "http://collager.party/",
         target: "_blank"
-      }, "Collager.party "))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Links"), _react.default.createElement("p", null, " \uD83D\uDD17", _react.default.createElement("a", {
+      }, "Collager.party ")), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD2C ", _react.default.createElement("a", {
+        href: "https://inspiration.tw/",
+        target: "_blank"
+      }, "Inspiration.tw"))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Links"), _react.default.createElement("p", null, " \uD83D\uDD17", _react.default.createElement("a", {
         href: "https://www.notion.so/yhhuang/My-Favorite-Blogs-and-News-e7fb5feed9df4c3d9be4b85184809f2b",
         target: "_blank"
-      }, "Reading List (Notion)"), "\u30FB", _react.default.createElement("a", {
+      }, " Reading List (Notion)"), "\u30FB", _react.default.createElement("a", {
         href: "https://medium.com/@Johann016/",
         target: "_blank"
-      }, " Medium(1.6k)"), "\u30FB", _react.default.createElement("a", {
+      }, "Medium(1.6k)"), "\u30FB", _react.default.createElement("a", {
         href: "http://vsco.co/yuehan18",
         target: "_blank"
       }, "VSCO"), "\u30FB", _react.default.createElement("a", {
@@ -31923,7 +31926,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61388" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64471" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
