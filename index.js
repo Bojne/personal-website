@@ -31,11 +31,11 @@ class App extends React.Component {
                         <div>
                             <h2>Links</h2>
                             <p> 📚
-                                <a href="https://www.notion.so/yhhuang/My-Favorite-Blogs-and-News-e7fb5feed9df4c3d9be4b85184809f2b" target="_blank"> Reading List (Notion)</a>・
+                                <a href="https://www.notion.so/yhhuang/My-Favorite-Blogs-and-News-e7fb5feed9df4c3d9be4b85184809f2b" target="_blank"> News and Blogs I read</a>・
                                 <a href="https://medium.com/@Johann016/" target="_blank">Medium(1.6k followers)</a>
                             </p>
                             <p> 🔗 
-                                <a href="https://www.facebook.com/bojne.john"target="_blank"> FB</a>
+                                <a href="https://www.facebook.com/bojne.john"target="_blank"> FB</a>・
                                 <a href="http://vsco.co/yuehan18" target="_blank">VSCO</a>・
                                 <a href="https://github.com/bojne" target="_blank">GitHub</a>・ 
                                 <a href='https://bojne.github.io' target="_blank">_</a>
