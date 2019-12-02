@@ -3,21 +3,21 @@ body {
 }
 
 .content{
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-top: 4rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3rem;
 }
 
 *{
     font-family: 'Noto Serif', serif;
-    font-size: 1rem;
+    font-size: large;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: xx-large;
 }
 h2{
-    font-size: 1.3rem;
+    font-size: x-large;
 }
 
 a {
@@ -29,21 +29,30 @@ a {
 a:hover { color: #52bff2; }
 
 .image{
-    height: 22rem;
-    transition: all .2s linear;
+    max-width:100%;
+    max-height:100%;
     margin-top: 1.5rem;
 
 }
-
-.image:hover { color: #52bff2; }
 
 .box{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start; 
+    width: auto;
+}
+
+.picture{
+    max-width:100px;
 }
 
 .about{
-    margin-right: 6rem;
+
     margin-bottom: 1rem;
 }
+
+@media (max-width: 767px) {
+    .box {
+      width: auto;
+    }
+  }
