@@ -31863,7 +31863,7 @@ function (_React$Component) {
         alt: "Yueh Han's Hinking Pic"
       })), _react.default.createElement("div", {
         className: "about"
-      }, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze Data for better decision making at ", _react.default.createElement("a", {
+      }, _react.default.createElement("div", null, _react.default.createElement("h2", null, "Current"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93 Learning at Minerva Schools at KGI "), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB Analyze data for better decision making at ", _react.default.createElement("a", {
         href: "https://www.netlify.com/",
         target: "_blank"
       }, "Netlify"))), _react.default.createElement("div", null, _react.default.createElement("h2", null, "Projects"), _react.default.createElement("p", null, " \uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8 ", _react.default.createElement("a", {
@@ -31929,7 +31929,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49232" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53954" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
