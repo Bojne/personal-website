@@ -31804,6 +31804,8 @@ module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"yh2.me.jpg":[function(require,module,exports) {
 module.exports = "/yh2.me.e4b9636f.jpg";
+},{}],"bojne.gif":[function(require,module,exports) {
+module.exports = "/bojne.64b2278d.gif";
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -31814,6 +31816,8 @@ var _reactDom = _interopRequireDefault(require("react-dom"));
 require("./style.css");
 
 var _yh2Me = _interopRequireDefault(require("./yh2.me.jpg"));
+
+var _bojne = _interopRequireDefault(require("./bojne.gif"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -31853,7 +31857,13 @@ function (_React$Component) {
     value: function render() {
       return _react.default.createElement("div", {
         className: "content"
-      }, _react.default.createElement("h1", null, " Yueh Han Huang "), _react.default.createElement("div", {
+      }, _react.default.createElement("div", {
+        className: "main"
+      }, _react.default.createElement("h1", null, " Yueh Han Huang "), _react.default.createElement("img", {
+        id: "bojne",
+        src: _bojne.default,
+        alt: "What is bojne?"
+      })), _react.default.createElement("div", {
         className: "box"
       }, _react.default.createElement("div", {
         classname: "picture"
@@ -31878,7 +31888,7 @@ function (_React$Component) {
       }, " Reading List"), "\u30FB", _react.default.createElement("a", {
         href: "https://medium.com/@Johann016/",
         target: "_blank"
-      }, "Medium"), " (1.6k followers)\u30FB", _react.default.createElement("a", {
+      }, "Medium"), "\u30FB", _react.default.createElement("a", {
         href: "https://www.are.na/yueh-han-huang",
         target: "_blank"
       }, "Are.na")), _react.default.createElement("p", null, " \uD83D\uDD17", _react.default.createElement("a", {
@@ -31901,7 +31911,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(App, null), destination);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./style.css":"style.css","./yh2.me.jpg":"yh2.me.jpg"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./style.css":"style.css","./yh2.me.jpg":"yh2.me.jpg","./bojne.gif":"bojne.gif"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -31929,7 +31939,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53954" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64958" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

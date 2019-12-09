@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./style.css";
 import pic from "./yh2.me.jpg";
-
+import gif from "./bojne.gif";
 const destination = document.getElementById("root");
 
 class App extends React.Component {
@@ -12,7 +12,10 @@ class App extends React.Component {
   render() {
     return (
         <div className = 'content'>
-            <h1> Yueh Han Huang </h1>
+            <div className='main'>
+                <h1> Yueh Han Huang </h1>
+                <img id='bojne' src={gif} alt="What is bojne?" />
+            </div>
             <div className="box">
                 <div classname='picture'>
                     <img className="image" src={pic} alt="Yueh Han's Hinking Pic" />
