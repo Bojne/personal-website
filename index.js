@@ -32,7 +32,7 @@ class App extends React.Component {
                             <h2>Links</h2>
                             <p> 📙
                                 <a href="https://www.notion.so/yhhuang/My-Favorite-Blogs-and-News-e7fb5feed9df4c3d9be4b85184809f2b" target="_blank"> Reading List</a>・
-                                <a href="https://medium.com/@Johann016/" target="_blank">Medium</a> (1.6k followers)・
+                                <a href="https://medium.com/@Johann016/" target="_blank">Medium</a>・
                                 <a href="https://www.are.na/yueh-han-huang" target="_blank">Are.na</a>
                             </p>
                             <p> 🔗 
