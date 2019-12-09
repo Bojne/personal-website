@@ -44,7 +44,7 @@ class App extends React.Component {
                                 <a href="https://www.facebook.com/bojne.john"target="_blank"> FB</a>・
                                 <a href="http://vsco.co/yuehan18" target="_blank">VSCO</a>・
                                 <a href="https://github.com/bojne" target="_blank">GitHub</a>・ 
-                                <a href='https://bojne.github.io' target="_blank">v1</a>~~
+                                <a href='https://bojne.github.io' target="_blank">v1</a>
                             </p>
                         </div>
                     </div>
