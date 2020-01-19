@@ -46,6 +46,9 @@ class App extends React.Component {
                                 <a href="https://github.com/bojne" target="_blank">GitHub</a>・ 
                                 <a href='https://bojne.github.io' target="_blank">v1</a>
                             </p>
+                            <p> 🆕
+                                <a href="https://www.notion.so/yhhuang/Things-I-read-9fd8e49d8f6546a182bf9e6dc6b9d187"target="_blank"> Things I read</a>
+                            </p>
                         </div>
                     </div>
             </div>
