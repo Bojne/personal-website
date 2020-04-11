@@ -1,4 +1,9 @@
-## [bojne.com](https://bojne.com)
-![img](./images/bojne.gif)
+<h1 align="center">
+  Yueh Han's Website
+</h1>
 
-Built by Yueh Han Huang with Gatsby, Netlifyg
+## ✨[bojne.com](https://bojne.com)
+
+Built with Gatsby & ![Netlify](https://netlify.com)
+
+![img](./src/images/bojne.gif)
